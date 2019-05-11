@@ -1,6 +1,6 @@
 import { ArticleManager } from "../../src/managers/article_manager";
 import { Article } from "../../src/models/article";
-import {Repository} from "../../src/contracts/repository";
+import { Repository } from "../../src/contracts/repository";
 import { prisma as db } from "../../prisma/generated/prisma-client";
 
 test("getArticles_noArticlesInDB_emptyList", async () => {
